@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kickass Script App</title>
+  <meta name="description" content="Website for my Kickass Gulp Script!">
+  <meta name="author" content="Kirill A Novik">
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- endinject -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            User: <span id="user"></span>
+                        </div>
+                        <div class="panel-body">
+                            This is the Content
+                        </div>
+                        <button id="login">Login</button>
+                        <button id="sign-up">Sign Up</button>
+                        <button id="sign-out">Sign Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyD-7zFE3bIlsR2Q0SwfW7AYgejm3Em2RyQ",
+            authDomain: "fir-auth-2e623.firebaseapp.com",
+            databaseURL: "https://fir-auth-2e623.firebaseio.com",
+            storageBucket: "fir-auth-2e623.appspot.com",
+          };
+          firebase.initializeApp(config);
+        </script>
+<!-- inject:js -->
+<script src="/bootstrap.js"></script>
+<script src="/jquery.js"></script>
+<script src="/moment.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/moment.js"></script>
+<!-- endinject -->
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "kickass-automation-script",
+  "description": "Script for General Bootstrapping of a Web Project",
+  "main": "index.js",
+  "authors": [
+    "Kirill A. Novik"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "automation",
+    "web"
+  ],
+  "homepage": "https://github.com/kino6052/kickass-automation-script",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "moment": "^2.13.0",
+    "babel": "*"
+  }
+}
